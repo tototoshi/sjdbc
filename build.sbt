@@ -7,7 +7,7 @@ ThisBuild / scalaVersion := scalaVersion_3
 lazy val commonSettings = Seq(
   libraryDependencies ++= Seq(
     "com.h2database" % "h2" % "2.2.224" % Test,
-    "org.scalameta" %% "munit" % "1.0.0" % Test
+    "org.scalameta" %% "munit" % "1.0.4" % Test
   ),
   publishTo := _publishTo(version.value)
 )
